@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torte</title>
+    <link rel="stylesheet" href="pamcakes.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo holder">
+            <img src="logo_large.png" alt="Pamcakes_logo" width="300">
+        </div>
+    </header>
+    <main class="holder">
+        <div class="pasteles">
+            <h1>Pasteles</h1>
+            <ul>
+                <h3>Sabores</h3>
+                <li>Chocolate $130</li>
+                <li>Guayaba $150</li>
+                <li>Nuez $120</li>
+            </ul>
+            <ul>
+                <h4>Extras</h4>
+                <li>Adornos $45</li>
+                <li>Sabores Combinados $200</li>
+            </ul>
+            <h2>Matriz</h2>
+            <ul>
+                <li>Teléfono: 722589634</li>
+                <li>Ubicación: Av. Hidalgo # 18 Col. Centro, Almoloya</li>
+                <li>Horario de atención: 11:00 - 20:00</li>
+            </ul>
+        </div>
+        <div class="contacto">
+            <h2>Complete el siguiente formulario para realizar su pedido</h2>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre completo" aria-label="nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Correo electronico" aria-label="email">
+                </div>
+                <div class="col">
+                    <input type="number" class="form-control" placeholder="Teléfono" aria-label="telefono">
+                </div>
+            </div>
+        </div>
+        <div class="pedido">
+            <p>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Sabor</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="Guayaba">Guayaba</option>
+                    <option value="Nuez">Nuez</option>
+                </select>
+            </p>
+            <p><label for="">Combinado</label>
+            <ul>
+                <li>
+                    <input type="radio" name="combinado" value="si">
+                    <label for="">Si</label>
+                </li>
+                <li>
+                    <input type="radio" name="combinado" value="no">
+                    <label for="">No</label>
+                </li>
+            </ul>
+            <p>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Sabor 2</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="Guayaba">Guayaba</option>
+                    <option value="Nuez">Nuez</option>
+                </select>
+            </p>
+            <p>
+                <label for="">Adornos</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="adornos" value="adorno1">
+                    <label for="">Rosas</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="adornos" value="adorno2">
+                    <label for="">Placas de chocolate</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="adornos" value="adorno3">
+                    <label for="">Figura de Fondant</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="adornos" value="adorno4">
+                    <label for="">Impresión comestible</label>
+                </li>
+            </ul>
+            </p>
+            <h4>Detalles</h4>
+            <p>
+                <textarea type="" placeholder="Escribe los detalles que consideres necesarios"></textarea>
+            </p>
+            <p class="centrar"><input type="submit"></p>
+        </div>
+    </main>
+</body>
+
+</html>
